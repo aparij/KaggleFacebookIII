@@ -7,7 +7,7 @@ Very late entry to Kaggle competition. Predicting tags to StackExchange question
 My final standing was quite low 316/380, but I just had 3 weeks comparing to 4 months of the total competition's length. It was my first experience with Gensim library. 
 
 I tried to model topics of the questions using LDA. For preprocessing used NLTK with stemming, punctuation marks removed. 
-Less frequent words too(words that I encountered only once). Tried to remove code snippets too.
+Removing Less frequent words (words that I encountered only once). Tried to remove code snippets.
 Then I would find the most similar question based on the topics and take the tags from training to the test question and drop less frequent tags
 
 So what could have I done better ?
