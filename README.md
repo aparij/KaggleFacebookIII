@@ -14,6 +14,7 @@ So what could have I done better ?
 Preprocessing should be done once, I did every time I was building dictionary or corpora. It would probably speed 
 up by at least x2. 
 More automatic parallezation, although I used MLK to get free optimization (4 threads) I could have made some simple code to split/load large test file. But it can be still be done manually by using linux split on test.csv and then combining the results.
+POS tagging was too slow but I can see that with other speed improvements POS could be using and adjecvtives,adverbs and others could be removed
 
 
 
