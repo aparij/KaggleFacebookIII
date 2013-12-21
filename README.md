@@ -6,7 +6,7 @@ http://www.kaggle.com/c/facebook-recruiting-iii-keyword-extraction
 Very late entry to Kaggle competition. Predicting tags to StackExchange questions.
 My final standing was quite low 316/380, but I just had 3 weeks comparing to 4 months of the total competition's length. It was my first experience with Gensim library. 
 
-I tried to model topics of the questions using LDA. For preprocessing used NLTK with stemming, punctuation marks removed. 
+I tried to model topics of the questions using LDA. For preprocessing used NLTK with stemming, stop words and  punctuation marks removed. 
 Removing Less frequent words (words that I encountered only once). Tried to remove code snippets.
 Then I would find the most similar question based on the topics and take the tags from training to the test question and drop less frequent tags
 
